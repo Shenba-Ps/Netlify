@@ -9,7 +9,7 @@ function AddUser() {
     e.preventDefault();
     const user = { userName, email, password };
 
-const response = await fetch("https://renderdemo-r0vb.onrender.com/addusers", {
+const response = await fetch("https://renderdemo-r0vb.onrender.com/addUsers", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(user),
